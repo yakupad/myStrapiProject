@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/allusers",
+      "handler": "AllUsers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/allusers/:_id",
+      "handler": "AllUsers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/allusers",
+      "handler": "AllUsers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/allusers/:_id",
+      "handler": "AllUsers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/allusers/:_id",
+      "handler": "AllUsers.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

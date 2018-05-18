@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "gifts",
+  "info": {
+    "name": "gifts",
+    "description": "tüm hediyeler"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "string"
+    }
+  }
+}

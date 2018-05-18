@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/gifts",
+      "handler": "Gifts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/gifts/:_id",
+      "handler": "Gifts.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/gifts",
+      "handler": "Gifts.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/gifts/:_id",
+      "handler": "Gifts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/gifts/:_id",
+      "handler": "Gifts.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
